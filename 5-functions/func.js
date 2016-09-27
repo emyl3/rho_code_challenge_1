@@ -12,7 +12,7 @@ function multiply(num1, num2){
 }
 
 // 3 - Write a function expression that takes one argument and console logs that value.
-function consoleLogValue(value){
+var consoleLogValue = function(value){
   console.log('Value of argument: ' + value);
 }
 
